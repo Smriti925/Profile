@@ -8,7 +8,7 @@ function Home() {
     <div className="bg-slate-900">
       <section className="h-screen grid items-center">
         <div className="">
-          <p className="flex justify-center text-lg text-white p-5">
+          <p className="flex justify-center text-lg text-white p-5 font-pop">
             Hi, my name is
           </p>
           <div className="font-syne text-zinc-900 text-6xl md:text-8xl p-10 md:p-16 flex justify-center items-center ">
@@ -26,7 +26,7 @@ function Home() {
             </div>
           </div>
           <div className="flex justify-center ">
-            <p className="text-justify md:text-center text-lg text-white lg:w-1/2 p-5">
+            <p className="text-justify md:text-center text-lg text-white lg:w-1/2 p-5 font-pop">
               I build things for the WEB. My area of expertise is responsive
               design. I strive to make the web a beautiful place with every line
               of code{" "}
