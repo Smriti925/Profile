@@ -18,8 +18,8 @@ function SkillsData() {
         {apiCall &&
           apiCall.map((item, index) => {
             return (
-              <div className="elements py-2 font-pop text-xs mr-20 text-white">
-                <button className="rounded-lg border shadow-md bg-gray-800 hover:bg-gray-900 border-gray-700 w-24 sm:w-28 my-2">
+              <div className="elements py-2 font-pop text-sm mr-20 text-white">
+                <button className="rounded-lg bg-zinc-900 w-24 sm:w-28 my-2">
                   {item.title ? item.title : " "}
                 </button>
                 <div className="flex justify-center">

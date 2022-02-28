@@ -44,16 +44,7 @@
     text-shadow: #ec4899 0px 0 0px;
   }
 }
-.svgRotate {
-  transform-origin: center;
-  animation: mymove 80s infinite;
-}
-@keyframes mymove {
-  50% {
-    transform: rotate(360deg);
-  }
-}
-/* Media Query for Mobile Devices */
+
 @media (max-width: 480px) {
   .toHide {
     display: none;
@@ -65,3 +56,15 @@
     display: none;
   }
 } */
+.svgRotate {
+  animation: rotation 10s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}
